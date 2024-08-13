@@ -7,7 +7,7 @@ This is a stock forecasting web application built using Python. It allows users 
 ## Features
 
 - **Stock Prediction**: Users can select stocks and predict future prices using the Prophet forecasting model.
-- **Data Visualization**: Displays historical stock prices and forecasted data using interactive plots.
+- **Data Visualisation**: Displays historical stock prices and forecasted data using interactive plots.
 - **User Authentication**: Users can sign up, log in, and view their profiles.
 - **Analytics**: Compare historical data of two selected stocks or cryptocurrencies.
 
