@@ -9,7 +9,7 @@ from fbprophet.plot import plot_plotly  # the library is used to plot the graph
 from plotly import graph_objs as go  # the library is used to plot the graph
 
 import sqlite3  # imports the library sqlite3 for communicating with the database
-
+import hashlib  # imports the library hashlib to hash the passwords for added security
 
 def stock_forecast():  # for the sake of modularity, all forecasing function is under one function
 
@@ -70,9 +70,6 @@ def stock_forecast():  # for the sake of modularity, all forecasing function is 
 
 
 # Security
-
-import hashlib  # imports the library hashlib to hash the passwords for added security
-
 
 def make_hashes(password):  # function to hash passwords from new user pages
     return hashlib.sha256(str.encode(password)).hexdigest()
