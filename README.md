@@ -4,6 +4,9 @@
 
 This is a stock forecasting web application built using Python. It allows users to predict stock prices using historical data and machine learning algorithms. The application is implemented using Streamlit for the user interface, Facebook's Prophet library for forecasting, and SQLite for user authentication and data management.
 
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/d2630abf-8e04-412b-8927-c4bda066deae">
+
+
 ## Features
 
 - **Stock Prediction**: Users can select stocks and predict future prices using the Prophet forecasting model.
